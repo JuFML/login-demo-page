@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,25 +8,26 @@
     <title>Login</title>
 </head>
 <body>
-    <div class="login">
-        <h2>Login</h2>
-        <form action=""></form>
-            <label for="email">E-mail</label>
-            <input type="email" placeholder="Digite seu email" required>
-            <label for="senha">Senha</label>
-            <input type="password" placeholder="Digite sua senha" required>
+    <div class="login-box">
+        <div class="login-box__area">
+            <h2>Login</h2>
+            <form action="">
+                <label for="email"></label>E-mail</label>
+                <input type="email" placeholder="Digite seu email"required>
+                <label for="senha">Senha</label>
+                <input type="password" placeholder="Digite sua senha" required>
+            
 
-        <div class="senha">
-            <a href="" style="color:rgb(100, 97, 97)">Esqueceu a senha?</a>
-            <a href="https://www.google.com.br" target="_blank">
-                <input class="botao" type="submit" value="LOGIN">
-            </a>
-        </div>  
-        
-        <div class="naotemconta">
-            <p>Ainda não tem conta?</p>
-            <a href="" style="color:rgb(100, 97, 97)">Registrar</a>
-
+            <div class="login-box__key">
+                <a href="" style="color:rgb(100, 97, 97)">Esqueceu a senha?</a>                
+                <input class="login-box__btn" type="submit" value="LOGIN">             
+            </div> 
+        </form> 
+            
+            <div class="login-box__noaccount">
+                <p>Ainda não tem conta?</p>
+                <a href="" style="color:rgb(100, 97, 97)">Registrar</a>
+            </div>
         </div>
     </div>
     

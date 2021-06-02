@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image:url("../images/Pontevedra.jpg");
+    background-size: cover;
+    background-position: center;   
+    width: 100%;      
+    height: 100vh; 
+}
+
+.login-box form {
+    margin-top: 15px;   
+}
+
+.login-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+}
+
+.login-box__area {
+    background-color: whitesmoke;
+    width: 230px;
+    padding: 30px;
+    font-weight: bold;
+    margin: auto;
+    border-radius: 10px;
+    border-color:rgb(100, 97, 97);    
+    box-shadow: 5px 5px 10px black;    
+}
+
+.login-box__key {
+    text-align: right;
+    color:rgb(100, 97, 97);
+}
+
+.login-box input {
+    border: none;
+    background-color: whitesmoke;
+    border-bottom: 1px solid black;
+    margin-bottom: 25px;
+    color:rgb(100, 97, 97);
+    width: 100%;
+    outline: none;
+    line-height: 10px;
+    font-size: 16px;    
+}
+
+.login-box h2 {
+    text-align: center;
+    font-size: 28px;
+}
+
+.login-box a {
+    text-align: right;
+    font-size: 15px;
+}
+
+.login-box__noaccount {
+    text-align: center;
+    line-height: 20px;
+}
+
+.login-box__key input {
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+
+.login-box__btn:hover {
+    background-color: rgb(143, 96, 36);
+    transition: 3s;
+}
+
+.login-box p {
+    font-size: 15px;
+}
+
+.login-box label, 
+.login-box input{
+    font-size: 14px;
+    display: block;
+    line-height: 25px;
+}
