@@ -7,7 +7,7 @@
   </h1>
 
 <h3 align="center">
-    <a href="https://login-demo-page.netlify.app/">Access demo</a>
+    <a href="https://login-demo-page.netlify.app/">Access demo page</a>
 <h3 >
 
 # Index
