@@ -19,7 +19,7 @@
 ## 🔖&nbsp; About
 
 The Login Demo Page is a simple project created only with HTML and CSS. It is a simple login page that was created in order to put into practice all the content studied regarding the *form*, *input* and *label* tags and also applying the *flexbox* and *responsiveness* properties.
-I emphasize that this project is just the frontend form frontend, there is no backend yet.
+I emphasize that this project is just the frontend form, there is no backend yet.
 
 ---
 
